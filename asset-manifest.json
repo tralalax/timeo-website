@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tralala-react-portfolio-website/static/css/main.2a8f5772.css",
+    "main.js": "/tralala-react-portfolio-website/static/js/main.f4fc770b.js",
+    "static/media/Entanglement.ttf": "/tralala-react-portfolio-website/static/media/Entanglement.82f9cd2b2924be2024ef.ttf",
+    "index.html": "/tralala-react-portfolio-website/index.html",
+    "main.2a8f5772.css.map": "/tralala-react-portfolio-website/static/css/main.2a8f5772.css.map",
+    "main.f4fc770b.js.map": "/tralala-react-portfolio-website/static/js/main.f4fc770b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a8f5772.css",
+    "static/js/main.f4fc770b.js"
+  ]
+}
