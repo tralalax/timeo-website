@@ -1,0 +1,16 @@
+{
+  "basic_info": {
+      "name": "Hey, I'm timeo",
+      "titles": [ "tralala#7229", "github.com/tralalax", "Joueur Genshin", "autoproclamé dev", "Joueur Osu!" ],
+      "github_link": "https://github.com/tralalax",
+      "discord_link": "https://discord.com",
+      "youtube_link": "https://youtube.com",
+      "about_title": "A PROPOS DE MOI",
+      "skills_title": "SKILLS (hover me ;)",
+      "project_title": "Mes Projects",
+      "text_box_about_me_title": "visiteur@timeo-dr.tralala.ml:~$",
+      "text_box_content": "Salut, Voici mon site portfolio pour présenté ce que je sais faire et quelque projet que j'ai réalisé.\n Je suis actuelement en BAC Pro en haute-savoie et j'aimerait pouvoir faire un BUT réseau & télecommunication l'anné prochaine ",
+      "copyright": "Made By Tralala",
+      "image": "myProfile.jpg"
+  }
+}
