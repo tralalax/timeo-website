@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tralalax/timeo-website/static/css/main.49516dde.css",
-    "main.js": "/tralalax/timeo-website/static/js/main.5e8614f4.js",
-    "static/media/Terminus.ttf": "/tralalax/timeo-website/static/media/Terminus.46b3ff7bfffaf4b93926.ttf",
-    "static/media/Entanglement.ttf": "/tralalax/timeo-website/static/media/Entanglement.82f9cd2b2924be2024ef.ttf",
-    "index.html": "/tralalax/timeo-website/index.html",
-    "main.49516dde.css.map": "/tralalax/timeo-website/static/css/main.49516dde.css.map",
-    "main.5e8614f4.js.map": "/tralalax/timeo-website/static/js/main.5e8614f4.js.map"
+    "main.css": "/timeo-website/static/css/main.badf6706.css",
+    "main.js": "/timeo-website/static/js/main.a19fd8fa.js",
+    "static/media/Terminus.ttf": "/timeo-website/static/media/Terminus.46b3ff7bfffaf4b93926.ttf",
+    "static/media/Entanglement.ttf": "/timeo-website/static/media/Entanglement.82f9cd2b2924be2024ef.ttf",
+    "index.html": "/timeo-website/index.html",
+    "main.badf6706.css.map": "/timeo-website/static/css/main.badf6706.css.map",
+    "main.a19fd8fa.js.map": "/timeo-website/static/js/main.a19fd8fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.49516dde.css",
-    "static/js/main.5e8614f4.js"
+    "static/css/main.badf6706.css",
+    "static/js/main.a19fd8fa.js"
   ]
 }
