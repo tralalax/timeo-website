@@ -1,0 +1,420 @@
+@font-face {
+    font-family: Entanglement;
+    src: url(fonts/Entanglement.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Terminus;
+    src: url(fonts/Terminus.ttf) format("truetype");
+}
+
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	padding: 0;
+}
+
+.styles_typicalWrapper__1_Uvh::after {
+	cursor: none !important;
+	display: none;
+}
+
+.aligner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-aligner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: -350px;
+}
+
+.title-container {
+	height: 50px;
+}
+
+.title-styles {
+	font-family: 'Raleway', sans-serif;
+	margin-top: 100px;
+	font-size: 500%;
+	color: white;
+}
+
+.title-styles p {
+	font-size: 16px;
+}
+
+.social-link {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	gap: 150px;
+	padding-top: 100px;
+}
+.github-button {
+	background: url(icons/github.png) no-repeat;
+	padding: 32px 32px;
+}
+.github-button:hover {
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+.discord-button {
+	background: url(icons/discord.png) no-repeat;
+	padding: 32px 32px;
+}
+.discord-button:hover {
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+// .youtube-button {
+// 	background: url(icons/youtube.png) no-repeat;
+// 	padding: 32px 32px;
+// }
+// .youtube-button:hover {
+// 	-webkit-filter: invert(100%);
+// 	filter: invert(100%);
+// }
+
+header {
+	position: relative;
+	height: 520px;
+	min-height: 450px;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	padding-top: 150px;
+	padding-bottom: 0;
+    background: linear-gradient(270deg, #136692, #5238ad, #be9428);
+    background-size: 400% 400%;
+
+    -webkit-animation: header-background-color 50s ease infinite;
+    -moz-animation: header-background-color 50s ease infinite;
+    -o-animation: header-background-color 50s ease infinite;
+    animation: header-background-color 50s ease infinite;
+}
+
+@-webkit-keyframes header-background-color {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes header-background-color {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes header-background-color {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes header-background-color {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+header h1 {
+	font-size: 1000%;
+	text-align: center;
+	font-weight: 200 !important;
+	color: #ffffff;
+	font-family: 'Entanglement','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 0 auto 18px auto;
+	width: 100%;
+}
+
+header h1:hover {
+	color: #e0dfdc;
+	letter-spacing: .1em;
+	text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+	color: #e0dfdc;
+}
+
+@media screen and (max-width: 1040px) {
+	header h1 {
+		font-size: 15vw;
+		height: 100px;
+		margin-top: 200px;
+	}
+
+	.title-container {
+		margin-top: 100px;
+	}
+
+	.title-styles {
+		padding-top: 17vw;
+		font-size: 4vw;
+	}
+
+	.social-link {
+		gap: 10vw;
+	}
+
+}
+/////////////////////////////////////////////////////////////////////////////////////////// ABOUT ME SECTION
+
+#about {
+	background: #0077b6;
+	min-height: 600px;
+}
+
+.about-title {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #282A3A;
+	text-align: center;
+}
+
+.text-box {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	flex-direction: column;
+	width: 900px;
+	margin-left: auto;
+	margin-right: 60px;
+}
+
+.text-box-item {
+	border-radius: 12px;
+}
+
+.text-box-header {
+	background-color: #000000;
+	height: 80px;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.text-box-header h2 {
+	color: green;
+	padding-left: 25px;
+	margin-bottom: 0px;
+	font-size: 25px;
+	margin-top: 0px;
+	font-family: Terminus;
+    padding-top: 20px;
+
+	.styles_typicalWrapper__1_Uvh {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+.text-box-body {
+	background-color: black;
+
+	border-radius: 0px 0px 15px 15px;
+	height: 200px;
+}
+
+.text-box-body p {
+	font-family: Terminus;
+	color: white;
+	padding-left: 25px;
+    padding-right: 10px;
+	margin-bottom: 0px;
+    margin-top: 0px;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+@media screen and (max-width: 990px) {
+	.text-box {
+		width: auto;
+		margin-left: 10px;
+    	margin-right: 10px;
+	}
+	.text-box-body {
+    	height: 250px;
+	}
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////// PROJECTS SECTION
+ 
+#projects {
+	background: #453C67;
+	min-height: 500px;
+}
+
+.projects-title {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #fff;
+	text-align: center;
+}
+
+.projects-card-box {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: auto;
+	align-content: center;
+}
+
+.projects-card-item {
+	display: flex;
+    justify-content: normal;
+    align-items: center;
+	text-align: center;
+	margin: 30px;
+	flex-direction: column;
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	border-radius: 12px;
+}
+
+.projects-card-item h3 {
+	font-size: 20px;
+	padding-top: 20px;
+	margin-bottom: 40px;
+}
+
+.projects-card-item p {
+	font-size: 15px;
+}
+
+.projects-card-github-button {
+	background: url(icons/github.png) no-repeat;
+	padding: 32px 32px;
+	margin-top: auto;
+	margin-bottom: 25px;
+}
+
+.projects-card-wip {
+	background: url(icons/work-in-progress.png) no-repeat;
+	padding: 32px 32px;
+	margin-top: auto;
+	margin-bottom: 25px;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////// SKILLS SECTION
+
+#skills {
+	background: #1F1F1F;
+	min-height: 200px;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 10%;
+}
+
+.skills-title {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #fff;
+	text-align: center;
+}
+
+.skills-icon-box {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: auto;
+	align-content: center;
+	gap: 80px;
+}
+
+.skills-icon-item {
+	display: flex;
+    justify-content: normal;
+    align-items: center;
+	text-align: center;
+	flex: 0 0 auto;
+	flex-direction: column;
+  	margin: 10px;
+	padding: 10px 10px;
+	border-radius: 12px;
+	height: 140px;
+	width: 120px;
+	background-color: white;
+}
+.skills-icon-item:hover {
+	background-color: black;
+	p {
+		color: white;
+		font-size: 19px;
+		padding-top: 13px;
+	}
+}
+
+.skills-icon-item p {
+	color: black;
+	font-size: 15px;
+	padding-top: 22px;
+}
+
+.tooltip-title {
+	color: white;
+	text-align: center;
+}
+
+.skills-html-icon {
+	padding: 32px 32px;
+	background: url(icons/skills-html.png) no-repeat;
+}
+.skills-css-icon {
+	padding: 32px 32px;
+	background: url(icons/skills-css.png) no-repeat;
+}
+.skills-reactjs-icon {
+	padding: 32px 32px;
+	background: url(icons/skills-reactjs.png) no-repeat;
+}
+.skills-python-icon {
+	padding: 32px 32px;
+	background: url(icons/skills-python.png) no-repeat;
+}
+.skills-discordpy-icon {
+	padding: 32px 32px;
+	background: url(icons/skills-discord.png) no-repeat;
+}
+.skills-docker-icon {
+	padding: 32px 32px;
+	background: url(icons/skills-docker.png) no-repeat;
+}
+.skills-linuxserver-icon {
+	padding: 32px 32px;
+	background: url(icons/skills-linux.png) no-repeat;
+}
+.skills-networking-icon {
+	padding: 32px 32px;
+	background: url(icons/skills-network.png) no-repeat;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////// FOOTER SECTION
+
+footer {
+	background: black;
+	min-height: 100px;
+	width: 100%;
+	overflow: hidden;
+	font-size: 14px;
+	position: relative;
+	text-align: center;
+}
+
+.footer-copyright {
+	color: white;
+	padding-top: 30px;
+}

@@ -1,0 +1,32 @@
+{
+  "basic_info": {
+      "name": "Hey, I'm timeo",
+      "titles": [ "tralala#7229", "github.com/tralalax", "Joueur Genshin", "autoproclamé dev", "Joueur Osu!" ],
+      "github_link": "https://github.com/tralalax",
+      "discord_link": "https://discord.com",
+      "youtube_link": "https://youtube.com",
+      "about_title": "A PROPOS DE MOI",
+      "skills_title": "SKILLS",
+      "project_title": "Mes Projects",
+      "text_box_about_me_title": "timeo-website@tralalax.github.io:~$",
+      "text_box_content": "Salut, voici mon site portfolio pour présenter ce que je sais faire et quelques projets que j'ai réalisé. Je suis actuellement en BAC Pro en Haute-Savoie et j'aimerais pouvoir faire un BUT réseau & télécommunication l'année prochaine. Je suis passionné par l'informatique depuis que j'ai commencé le lycée et j'espère pour travailler dans ce domaine plus tard.",
+      "copyright": "Made By Tralala",
+      "image": "myProfile.jpg"
+  },
+  "projects": {
+      "github_button": "Liens de la repo github",
+      "wip_tooltip": "coming soon!",
+      "card_a_title": "Minecraft Server Installer",
+      "card_b_title": "Ce Site Web",
+      "card_c_title": "Youtube Playlist Downloader",
+      "card_d_title": "Bot Discord",
+      "card_a_text": "Minecraft Server Installer est un petit script codé en Lua qui permet de créer des serveurs facilement sous Linux. Le script vous demande de rentrer le nom pour le dossier du serveur minecraft et sa version. Puis il téléchargera et exécutera l'installateur tout seul en acceptant l'EULA et en installant Screen et Java pour lancer le serveur minecraft. Après ça, il crée un script de lancement shell propre au serveur.",
+      "card_b_text": "Mon site portfolio (ce site-là) réaliser sans template en ReactJS.",
+      "card_c_text": "Il s'agit d'une application mobile réalisée en Kotlin qui permet de télécharger automatiquement des musiques depuis une playlist YouTube. Par exemple, si vous rajoutez des musiques à votre playlist sur YouTube, l'application téléchargera automatiquement celle que vous avez rajouté sur votre téléphone. Il est possible de changer le dossier de stockage des téléchargements, l'URL de la playlist ainsi que l'heure de la synchronisation.",
+      "card_d_text": "Création de bot discord en Python avec leur API",
+      "card_a_link": "https://github.com/tralalax/MCserver-installer",
+      "card_b_link": "https://github.com/tralalax/timeo-website",
+      "card_c_link": "https://github.com/tralalax",
+      "card_d_link": "https://github.com/tralalax"
+  }
+}
