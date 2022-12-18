@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/tralala-react-portfolio-website/static/css/main.2a8f5772.css",
-    "main.js": "/tralala-react-portfolio-website/static/js/main.f4fc770b.js",
-    "static/media/Entanglement.ttf": "/tralala-react-portfolio-website/static/media/Entanglement.82f9cd2b2924be2024ef.ttf",
-    "index.html": "/tralala-react-portfolio-website/index.html",
-    "main.2a8f5772.css.map": "/tralala-react-portfolio-website/static/css/main.2a8f5772.css.map",
-    "main.f4fc770b.js.map": "/tralala-react-portfolio-website/static/js/main.f4fc770b.js.map"
+    "main.css": "/tralalax/timeo-website/static/css/main.49516dde.css",
+    "main.js": "/tralalax/timeo-website/static/js/main.5e8614f4.js",
+    "static/media/Terminus.ttf": "/tralalax/timeo-website/static/media/Terminus.46b3ff7bfffaf4b93926.ttf",
+    "static/media/Entanglement.ttf": "/tralalax/timeo-website/static/media/Entanglement.82f9cd2b2924be2024ef.ttf",
+    "index.html": "/tralalax/timeo-website/index.html",
+    "main.49516dde.css.map": "/tralalax/timeo-website/static/css/main.49516dde.css.map",
+    "main.5e8614f4.js.map": "/tralalax/timeo-website/static/js/main.5e8614f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a8f5772.css",
-    "static/js/main.f4fc770b.js"
+    "static/css/main.49516dde.css",
+    "static/js/main.5e8614f4.js"
   ]
 }
