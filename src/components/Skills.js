@@ -39,6 +39,12 @@ class Skills extends Component {
                 <p>PYTHON</p>
               </span>
             </Tooltip>
+            <Tooltip title={<h1 className="tooltip-title">Language Kotlin</h1>}>
+              <span className="skills-icon-item">
+                <div className="skills-kotlin-icon"></div>
+                <p>KOTLIN</p>
+              </span>
+            </Tooltip>
             <Tooltip title={<h1 className="tooltip-title">l'API de Discord en Python</h1>}>
               <span className="skills-icon-item">
                 <div className="skills-discordpy-icon"></div>

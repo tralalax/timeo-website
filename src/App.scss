@@ -68,10 +68,13 @@ html {
 .discord-button {
 	background: url(icons/discord.png) no-repeat;
 	padding: 32px 32px;
+	border: 0px;
+	cursor: pointer;
 }
 .discord-button:hover {
 	-webkit-filter: invert(100%);
 	filter: invert(100%);
+	cursor: pointer;
 }
 // .youtube-button {
 // 	background: url(icons/youtube.png) no-repeat;
@@ -214,9 +217,7 @@ header h1:hover {
 
 .text-box-body {
 	background-color: black;
-
 	border-radius: 0px 0px 15px 15px;
-	height: 200px;
 }
 
 .text-box-body p {
@@ -237,8 +238,20 @@ header h1:hover {
 		margin-left: 10px;
     	margin-right: 10px;
 	}
+	
+}
+@media screen and (max-width: 400px) {
+	.text-box-body p {
+    	font-size: 5vw;
+	}
+	.text-box-header h2 {
+		font-size: 5.5vw;
+	}
+	.text-box-header {
+		width: fit-content;
+	}
 	.text-box-body {
-    	height: 250px;
+		width: fit-content;
 	}
 }
 
@@ -384,6 +397,10 @@ header h1:hover {
 .skills-python-icon {
 	padding: 32px 32px;
 	background: url(icons/skills-python.png) no-repeat;
+}
+.skills-kotlin-icon {
+	padding: 32px 32px;
+	background: url(icons/skills-kotlin.png) no-repeat;
 }
 .skills-discordpy-icon {
 	padding: 32px 32px;
