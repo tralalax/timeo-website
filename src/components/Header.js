@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Particles from "react-tsparticles";
+import ClipboardJS from "clipboard";
+import Tooltip from '@mui/material/Tooltip';
 import { loadFull } from "tsparticles";
 import data from "./data.json";
+
+new ClipboardJS(".discord-button");
 
 class Header extends Component {
   sub_titles = [];
@@ -107,7 +111,12 @@ class Header extends Component {
               <Typical className="title-styles" steps={titles.map(x => [ x, 1500 ] ).flat()} loop={50}/>
             </div>
             <div className="social-link">
+              <Tooltip arrow title={<h1 className="tooltip-title">Mon Github !</h1>}>
               <a href={github_link} className="github-button"></a>
+              </Tooltip>
+              <Tooltip arrow title={<h1 className="tooltip-title">Copié !</h1>}>
+                <button className="discord-button" data-clipboard-text={discord_link}></button>
+              </Tooltip>
             </div>
           </div>
         </div>

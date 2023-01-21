@@ -46,8 +46,8 @@ class Projects extends Component {
           <span className="projects-card-item">
             <h3>{card_c_title}</h3>
             <p>{card_c_text}</p>
-            <Tooltip title={<h1 className="tooltip-title">{wip_tooltip}</h1>}>
-              <div className="projects-card-wip"></div>
+            <Tooltip title={<h1 className="tooltip-title">{github_button}</h1>}>
+              <a href={card_c_link} className="projects-card-github-button"></a>
             </Tooltip>
           </span>
           <span className="projects-card-item">
