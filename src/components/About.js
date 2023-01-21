@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ScrollAnimation from "react-animate-on-scroll";
 import Typical from "react-typical";
 import data from "./data.json";
 
@@ -10,24 +11,25 @@ class About extends Component {
 
     return (
       <section id="about">
-        <div className="about-title">
+        <ScrollAnimation animateIn="animate__slideInLeft">
+          <div className="about-title">
             <h1>
               <Typical steps={[about_title]}/>
             </h1>
         </div>
+        </ScrollAnimation>
         <div className="text-box">
-          <div className="text-box-item">
-            <div className="text-box-header">
-              <h2>{text_box_about_me_title}</h2>
+          <ScrollAnimation animateIn="animate__fadeInUp">
+            <div className="text-box-item">
+              <div className="text-box-header">
+                <h2>{text_box_about_me_title}</h2>
+              </div>
+              <div className="text-box-body">
+                <p>{text_box_content}</p>
+              </div>
             </div>
-            <div className="text-box-body">
-              <p>{text_box_content}</p>
-            </div>
-          </div>
+          </ScrollAnimation>
         </div>
-
-
-         
       </section>
     );
   }

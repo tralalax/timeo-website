@@ -3,8 +3,10 @@ import Typical from "react-typical";
 import Particles from "react-tsparticles";
 import ClipboardJS from "clipboard";
 import Tooltip from '@mui/material/Tooltip';
+import ScrollAnimation from 'react-animate-on-scroll';
 import { loadFull } from "tsparticles";
 import data from "./data.json";
+import "animate.css/animate.min.css";
 
 new ClipboardJS(".discord-button");
 
@@ -112,9 +114,9 @@ class Header extends Component {
             </div>
             <div className="social-link">
               <Tooltip arrow title={<h1 className="tooltip-title">Mon Github !</h1>}>
-              <a href={github_link} className="github-button"></a>
+                <a href={github_link} className="github-button"></a>
               </Tooltip>
-              <Tooltip arrow title={<h1 className="tooltip-title">Copié !</h1>}>
+              <Tooltip arrow title={<h1 className="tooltip-title">Copié dans le presse-papiers</h1>}>
                 <button className="discord-button" data-clipboard-text={discord_link}></button>
               </Tooltip>
             </div>

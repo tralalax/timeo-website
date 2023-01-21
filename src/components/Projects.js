@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Typical from "react-typical";
 import Tooltip from '@mui/material/Tooltip';
 import data from "./data.json";
+import ScrollAnimation from "react-animate-on-scroll";
 
 class Projects extends Component {
   render() {
@@ -23,37 +24,47 @@ class Projects extends Component {
 
     return (
       <section id="projects">
-        <div className="skills-title">
+        <ScrollAnimation animateIn="animate__slideInLeft">
+          <div className="skills-title">
             <h1>
               <Typical steps={[project_title]}/>
             </h1>
         </div>
+        </ScrollAnimation>
         <div className="projects-card-box">
-          <span className="projects-card-item">
-            <h3>{card_a_title}</h3>
-            <p>{card_a_text}</p>
-            <Tooltip title={<h1 className="tooltip-title">{github_button}</h1>}>
-              <a href={card_a_link} className="projects-card-github-button"></a>
-            </Tooltip>
-          </span>
-          <span className="projects-card-item">
-            <h3>{card_b_title}</h3>
-            <p>{card_b_text}</p>
-            <Tooltip title={<h1 className="tooltip-title">{github_button}</h1>}>
-              <a href={card_b_link} className="projects-card-github-button"></a>
-            </Tooltip>
-          </span>
-          <span className="projects-card-item">
-            <h3>{card_c_title}</h3>
-            <p>{card_c_text}</p>
-            <Tooltip title={<h1 className="tooltip-title">{github_button}</h1>}>
-              <a href={card_c_link} className="projects-card-github-button"></a>
-            </Tooltip>
-          </span>
-          <span className="projects-card-item">
-            <h3>{card_d_title}</h3>
-            <p>{card_d_text}</p>
-          </span>
+          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp">
+            <span className="projects-card-item">
+              <h3>{card_a_title}</h3>
+              <p>{card_a_text}</p>
+              <Tooltip title={<h1 className="tooltip-title">{github_button}</h1>}>
+                <a href={card_a_link} className="projects-card-github-button"></a>
+              </Tooltip>
+            </span>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp" delay={60}>
+            <span className="projects-card-item">
+              <h3>{card_b_title}</h3>
+              <p>{card_b_text}</p>
+              <Tooltip title={<h1 className="tooltip-title">{github_button}</h1>}>
+                <a href={card_b_link} className="projects-card-github-button"></a>
+              </Tooltip>
+            </span>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp" delay={120}>
+            <span className="projects-card-item">
+              <h3>{card_c_title}</h3>
+              <p>{card_c_text}</p>
+              <Tooltip title={<h1 className="tooltip-title">{github_button}</h1>}>
+                <a href={card_c_link} className="projects-card-github-button"></a>
+              </Tooltip>
+            </span>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp" delay={180}>
+            <span className="projects-card-item">
+              <h3>{card_d_title}</h3>
+              <p>{card_d_text}</p>
+            </span>
+          </ScrollAnimation>
         </div>
       </section>
     );
