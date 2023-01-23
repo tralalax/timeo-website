@@ -32,7 +32,7 @@ class Projects extends Component {
         </div>
         </ScrollAnimation>
         <div className="projects-card-box">
-          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp">
+          <ScrollAnimation animateIn="animate__zoomIn">
             <span className="projects-card-item">
               <h3>{card_a_title}</h3>
               <p>{card_a_text}</p>
@@ -41,7 +41,7 @@ class Projects extends Component {
               </Tooltip>
             </span>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp" delay={60}>
+          <ScrollAnimation animateIn="animate__zoomIn" delay={60}>
             <span className="projects-card-item">
               <h3>{card_b_title}</h3>
               <p>{card_b_text}</p>
@@ -50,7 +50,7 @@ class Projects extends Component {
               </Tooltip>
             </span>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp" delay={120}>
+          <ScrollAnimation animateIn="animate__zoomIn" delay={120}>
             <span className="projects-card-item">
               <h3>{card_c_title}</h3>
               <p>{card_c_text}</p>
@@ -59,7 +59,7 @@ class Projects extends Component {
               </Tooltip>
             </span>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp" delay={180}>
+          <ScrollAnimation animateIn="animate__zoomIn" delay={180}>
             <span className="projects-card-item">
               <h3>{card_d_title}</h3>
               <p>{card_d_text}</p>

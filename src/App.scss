@@ -288,8 +288,8 @@ header h1:hover {
 	text-align: center;
 	margin: 30px;
 	flex-direction: column;
-	width: 400px;
 	height: 400px;
+	max-width: 400px;
 	background-color: white;
 	border-radius: 12px;
 }

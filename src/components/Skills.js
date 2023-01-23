@@ -18,7 +18,7 @@ class Skills extends Component {
           </div>
         </ScrollAnimation>
         <div className="skills-icon-box">
-          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp" delay={0}>
+          <ScrollAnimation animateIn="animate__zoomIn" delay={0}>
             <Tooltip title={<h1 className="tooltip-title">Classique HTML pour le Web</h1>}>
               <span className="skills-icon-item">
                 <div className="skills-html-icon"></div>
@@ -26,7 +26,7 @@ class Skills extends Component {
               </span>
             </Tooltip>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp" delay={60}>
+          <ScrollAnimation animateIn="animate__zoomIn" delay={60}>
             <Tooltip title={<h1 className="tooltip-title">Classique CSS pour le Web</h1>}>
               <span className="skills-icon-item">
                 <div className="skills-css-icon"></div>
@@ -34,7 +34,7 @@ class Skills extends Component {
               </span>
             </Tooltip>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp" delay={120}>
+          <ScrollAnimation animateIn="animate__zoomIn" delay={120}>
             <Tooltip title={<h1 className="tooltip-title">ReactJS framework</h1>}>
               <span className="skills-icon-item">
                 <div className="skills-reactjs-icon"></div>
@@ -42,7 +42,7 @@ class Skills extends Component {
               </span>
             </Tooltip>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp" delay={180}>
+          <ScrollAnimation animateIn="animate__zoomIn" delay={180}>
             <Tooltip title={<h1 className="tooltip-title">Language Python</h1>}>
               <span className="skills-icon-item">
                 <div className="skills-python-icon"></div>
@@ -50,7 +50,7 @@ class Skills extends Component {
               </span>
             </Tooltip>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp" delay={240}>
+          <ScrollAnimation animateIn="animate__zoomIn" delay={240}>
             <Tooltip title={<h1 className="tooltip-title">Language Kotlin</h1>}>
               <span className="skills-icon-item">
                 <div className="skills-kotlin-icon"></div>
@@ -58,7 +58,7 @@ class Skills extends Component {
               </span>
             </Tooltip>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp" delay={300}>
+          <ScrollAnimation animateIn="animate__zoomIn" delay={300}>
             <Tooltip title={<h1 className="tooltip-title">l'API de Discord en Python</h1>}>
               <span className="skills-icon-item">
                 <div className="skills-discordpy-icon"></div>
@@ -66,7 +66,7 @@ class Skills extends Component {
               </span>
             </Tooltip>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp" delay={360}>
+          <ScrollAnimation animateIn="animate__zoomIn" delay={360}>
             <Tooltip title={<h1 className="tooltip-title">Docker & Portainer pour faire de la conteneurisation de services</h1>}>
               <span className="skills-icon-item">
                 <div className="skills-docker-icon"></div>
@@ -74,7 +74,7 @@ class Skills extends Component {
               </span>
             </Tooltip>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp" delay={420}>
+          <ScrollAnimation animateIn="animate__zoomIn" delay={420}>
             <Tooltip title={<h1 className="tooltip-title">Commande Linux, tout spécialement de l'expérience avec Ubuntu Server</h1>}>
               <span className="skills-icon-item">
                 <div className="skills-linuxserver-icon"></div>
@@ -82,7 +82,7 @@ class Skills extends Component {
               </span>
             </Tooltip>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="animate__zoomIn" animateOut="animate__zoomOutUp" delay={480}>
+          <ScrollAnimation animateIn="animate__zoomIn" delay={480}>
             <Tooltip title={<h1 className="tooltip-title">Hébergement de site Web & services en HTTPS, config de DNS, Proxy, Firewall, NAT/PAT</h1>}>
               <span className="skills-icon-item">
                 <div className="skills-networking-icon"></div>
