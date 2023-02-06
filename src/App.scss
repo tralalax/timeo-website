@@ -125,7 +125,7 @@ header {
 }
 
 header h1 {
-	font-size: 1000%;
+	font-size: 100px;
 	text-align: center;
 	font-weight: 200 !important;
 	color: #ffffff;
@@ -135,32 +135,23 @@ header h1 {
 }
 
 header h1:hover {
-	color: #e0dfdc;
-	letter-spacing: .1em;
-	text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
-	color: #e0dfdc;
+	color: black;
 }
 
 @media screen and (max-width: 1040px) {
-	header h1 {
-		font-size: 15vw;
-		height: 100px;
-		margin-top: 200px;
-	}
-
-	.title-container {
-		margin-top: 100px;
-	}
-
-	.title-styles {
-		padding-top: 17vw;
-		font-size: 4vw;
-	}
-
 	.social-link {
 		gap: 10vw;
 	}
 
+}
+@media screen and (max-width: 600px) {
+	header h1 {
+		font-size: 15vw;
+	}
+
+	.title-styles {
+		font-size: 8vw;
+	}
 }
 /////////////////////////////////////////////////////////////////////////////////////////// ABOUT ME SECTION
 
@@ -290,9 +281,18 @@ header h1:hover {
 	flex-direction: column;
 	height: 400px;
 	max-width: 400px;
+	min-width: 400px;
 	background-color: white;
 	border-radius: 12px;
 }
+
+@media screen and (max-width: 410px) {
+	.projects-card-item {
+		min-width: 0px;
+		max-width: 400px;
+	}
+}
+
 
 .projects-card-item h3 {
 	font-size: 20px;
@@ -302,6 +302,7 @@ header h1:hover {
 
 .projects-card-item p {
 	font-size: 15px;
+	margin: 8px;
 }
 
 .projects-card-github-button {

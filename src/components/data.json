@@ -1,7 +1,7 @@
 {
   "basic_info": {
-      "name": "Hey, I'm timeo",
-      "titles": [ "tralala#7229", "github.com/tralalax", "Joueur Genshin", "autoproclamé dev", "Joueur Osu!" ],
+      "name": "Salut, je suis timeo",
+      "titles": [ "tralala#7229", "github.com/tralalax", "Joueur Genshin", "autoproclamé dev", "Joueur Osu!", "open source for the win !" ],
       "github_link": "https://github.com/tralalax",
       "discord_link": "tralala#7229",
       "youtube_link": "https://youtube.com",
@@ -10,8 +10,7 @@
       "project_title": "Mes Projets",
       "text_box_about_me_title": "timeo-website@tralalax.github.io:~$",
       "text_box_content": "Salut, voici mon site portfolio pour présenter ce que je sais faire et quelques projets que j'ai réalisé. Je suis actuellement en BAC Pro en Haute-Savoie et j'aimerais pouvoir faire un BUT réseau & télécommunication l'année prochaine. Je suis passionné par l'informatique depuis que j'ai commencé le lycée et j'espère pouvoir travailler dans ce domaine plus tard.",
-      "copyright": "Made By Tralala",
-      "image": "myProfile.jpg"
+      "copyright": "Made By Tralala / Timéo"
   },
   "projects": {
       "github_button": "Liens de la repo github",
@@ -23,7 +22,7 @@
       "card_a_text": "Minecraft Server Installer est un petit script codé en Lua qui permet de créer des serveurs facilement sous Linux. Le script vous demande de rentrer le nom pour le dossier du serveur minecraft et sa version. Puis il téléchargera et exécutera l'installateur tout seul en acceptant l'EULA et en installant Screen et Java pour lancer le serveur minecraft. Après ça, il crée un script de lancement shell propre au serveur.",
       "card_b_text": "Mon site portfolio (ce site-là) réaliser sans template en ReactJS.",
       "card_c_text": "Il s'agit d'une application mobile réalisée en Kotlin qui permet de télécharger automatiquement des musiques depuis une playlist YouTube. Par exemple, si vous rajoutez des musiques à votre playlist sur YouTube, l'application téléchargera automatiquement les dernières que vous avez rajouté sur votre téléphone.",
-      "card_d_text": "Création de bot discord en Python avec leur API",
+      "card_d_text": "Création de bot discord en Python avec leur API Discord.py",
       "card_a_link": "https://github.com/tralalax/MCserver-installer",
       "card_b_link": "https://github.com/tralalax/timeo-website",
       "card_c_link": "https://github.com/tralalax/auto-YTB-playlist-downloader",
