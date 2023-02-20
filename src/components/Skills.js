@@ -90,6 +90,14 @@ class Skills extends Component {
               </span>
             </Tooltip>
           </ScrollAnimation>
+          <ScrollAnimation animateIn="animate__zoomIn" delay={540}>
+            <Tooltip title={<h1 className="tooltip-title">Language Lua</h1>}>
+              <span className="skills-icon-item">
+                <div className="skills-lua-icon"></div>
+                <p>LUA</p>
+              </span>
+            </Tooltip>
+          </ScrollAnimation>
         </div>
       </section>
     );
