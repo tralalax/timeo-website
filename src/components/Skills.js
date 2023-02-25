@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Typical from "react-typical";
 import Tooltip from '@mui/material/Tooltip';
 import data from "./data.json";
-import dataSkills from "./data.json";
+import dataSkills from "./dataSkills.json";
 import ScrollAnimation from "react-animate-on-scroll";
 
 class Skills extends Component {

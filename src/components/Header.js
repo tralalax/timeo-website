@@ -112,7 +112,7 @@ class Header extends Component {
               <Typical className="title-styles" steps={titles.map(x => [ x, 1500 ] ).flat()} loop={50}/>
             </div>
             <div className="social-link">
-              <Tooltip arrow title={<h1 className="tooltip-title">Mon Github !</h1>}>
+              <Tooltip arrow title={<h1 className="tooltip-title">Mon Github</h1>}>
                 <a href={github_link} className="github-button"></a>
               </Tooltip>
               <Tooltip arrow title={<h1 className="tooltip-title">Copié dans le presse-papiers</h1>}>
