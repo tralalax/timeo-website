@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/timeo-website/static/css/main.e95cfbfe.css",
-    "main.js": "/timeo-website/static/js/main.1ac71d80.js",
+    "main.css": "/timeo-website/static/css/main.db017017.css",
+    "main.js": "/timeo-website/static/js/main.688f5b32.js",
     "static/media/Terminus.ttf": "/timeo-website/static/media/Terminus.46b3ff7bfffaf4b93926.ttf",
     "static/media/Entanglement.ttf": "/timeo-website/static/media/Entanglement.82f9cd2b2924be2024ef.ttf",
     "index.html": "/timeo-website/index.html",
-    "main.e95cfbfe.css.map": "/timeo-website/static/css/main.e95cfbfe.css.map",
-    "main.1ac71d80.js.map": "/timeo-website/static/js/main.1ac71d80.js.map"
+    "main.db017017.css.map": "/timeo-website/static/css/main.db017017.css.map",
+    "main.688f5b32.js.map": "/timeo-website/static/js/main.688f5b32.js.map"
   },
   "entrypoints": [
-    "static/css/main.e95cfbfe.css",
-    "static/js/main.1ac71d80.js"
+    "static/css/main.db017017.css",
+    "static/js/main.688f5b32.js"
   ]
 }
