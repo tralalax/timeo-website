@@ -3,7 +3,6 @@ import Typical from "react-typical";
 import Particles from "react-tsparticles";
 import ClipboardJS from "clipboard";
 import Tooltip from '@mui/material/Tooltip';
-import ScrollAnimation from 'react-animate-on-scroll';
 import { loadFull } from "tsparticles";
 import data from "./data.json";
 import "animate.css/animate.min.css";

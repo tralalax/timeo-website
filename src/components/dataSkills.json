@@ -1,0 +1,66 @@
+{
+    "skills": {
+        "cards": [
+            {
+                "tooltip": "Classique HTML pour le Web",
+                "name": "HTML",
+                "class": "skills-html-icon",
+                "delay": 0
+            },
+            {
+                "tooltip": "Classique CSS pour le Web",
+                "name": "CSS",
+                "class": "skills-css-icon",
+                "delay": 60
+            },
+            {
+                "tooltip": "ReactJS framework",
+                "name": "REACT JS",
+                "class": "skills-reactjs-icon",
+                "delay": 120
+            },
+            {
+                "tooltip": "Language Lua",
+                "name": "LUA",
+                "class": "skills-lua-icon",
+                "delay": 180
+            },
+            {
+                "tooltip": "Language Kotlin",
+                "name": "KOTLIN",
+                "class": "skills-kotlin-icon",
+                "delay": 240
+            },
+            {
+                "tooltip": "Language Python",
+                "name": "PYTHON",
+                "class": "skills-python-icon",
+                "delay": 300
+            },
+            {
+                "tooltip": "l'API de Discord en Python",
+                "name": "DISCORD.PY",
+                "class": "skills-discordpy-icon",
+                "delay": 360
+            },
+            {
+                "tooltip": "Docker & Portainer pour faire de la conteneurisation de services",
+                "name": "DOCKER",
+                "class": "skills-docker-icon",
+                "delay": 420
+            },
+            {
+                "tooltip": "Commande Linux, tout spécialement de l'expérience avec Ubuntu Server",
+                "name": "LINUX",
+                "class": "skills-linuxserver-icon",
+                "delay": 480
+            },
+            {
+                "tooltip": "Hébergement de site Web & services en HTTPS, config de DNS, Proxy, Firewall",
+                "name": "NETWORKING",
+                "class": "skills-networking-icon",
+                "delay": 540
+            }
+        ]
+    }
+}
