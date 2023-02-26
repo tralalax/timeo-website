@@ -9,19 +9,19 @@
             },
             {
                 "title": "Ce Site Web",
-                "text": "",
+                "text": "Mon site portfolio (ce site-là) réaliser sans template en ReactJS",
                 "link": "https://github.com/tralalax/timeo-website",
                 "delay": 60
             },
             {
                 "title": "Youtube Playlist Downloader",
-                "text": "Mon site portfolio (ce site-là) réaliser sans template en ReactJS.",
+                "text": "Il s'agit d'une application mobile réalisée en Kotlin qui permet de télécharger automatiquement des musiques depuis une playlist YouTube. Par exemple, si vous rajoutez des musiques à votre playlist sur YouTube, l'application téléchargera automatiquement les dernières que vous avez rajouté sur votre téléphone.",
                 "link": "https://github.com/tralalax/auto-YTB-playlist-downloader",
                 "delay": 120
             },
             {
                 "title": "Bot Discord",
-                "text": "Il s'agit d'une application mobile réalisée en Kotlin qui permet de télécharger automatiquement des musiques depuis une playlist YouTube. Par exemple, si vous rajoutez des musiques à votre playlist sur YouTube, l'application téléchargera automatiquement les dernières que vous avez rajouté sur votre téléphone.",
+                "text": "Création de bot discord en Python avec leur API Discord.py. Je peux utiliser des bases de données SQL ou des API spécifique si besoin. La plupart de mes projets ont été faits sur mesure pour des \"clients\", le code n'est donc pas public. Si vous êtes intéressé contacté moi sur discord.",
                 "link": "https://github.com/tralalax",
                 "delay": 180
             }

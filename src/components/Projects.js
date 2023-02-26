@@ -9,7 +9,6 @@ class Projects extends Component {
   render() {
     var project_title = (data.basic_info.project_title);
     var github_button = (data.projects.github_button);
-    var wip_tooltip = (data.projects.wip_tooltip);
 
     var projects = dataProjects.projects.cards.map(function (project, i) {
       return (
