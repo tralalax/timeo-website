@@ -15,8 +15,8 @@
             },
             {
                 "title": "Youtube Playlist Downloader",
-                "text": "Il s'agit d'une application mobile réalisée en Kotlin qui permet de télécharger automatiquement des musiques depuis une playlist YouTube. Par exemple, si vous rajoutez des musiques à votre playlist sur YouTube, l'application téléchargera automatiquement les dernières que vous avez rajouté sur votre téléphone.",
-                "link": "https://github.com/tralalax/auto-YTB-playlist-downloader",
+                "text": "Il s'agit d'un script écrit en python permettent de télécharger automatiquement des vidéos YouTube. En utilisant la librairie Pytube, le script crée un fichier json pour chaque playlist dans lequel il stoque les ID des vidéos, au prochain lancement, il peut ensuite comparer les ID de la dernière requête à l'API de YouTube avec celle du fichier, les ID ne se trouvent pas dans le fichier sont des nouvelles vidéos et sons donc télécharger puis ajouté au fichier json.",
+                "link": "https://github.com/tralalax/YTB-playlist-auto-DL",
                 "delay": 120
             },
             {
