@@ -13,254 +13,239 @@ html {
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding: 0;
+	width: 100%;
+	background-color: #000000;
+	scroll-behavior:smooth;
 }
 
-.styles_typicalWrapper__1_Uvh::after {
-	cursor: none !important;
-	display: none;
+h1, h2, h3, p, span {
+	font-family: "Rubik", sans-serif;
+	color: white;
 }
 
-.aligner {
+/////////////////////////////////////////////////////////////////////////////////////////// NAV BAR
+
+header {
+	text-align: center;
+
+	a {
+		font-size: 50px;
+		color: white;
+		text-decoration: none;
+		padding: 0rem clamp(1rem, 2vw, 3rem);
+	}
+	a:hover {
+		color: black;
+		background-color: #ffffff;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	header {
+		a {
+			font-size: 5vh;
+		}
+	}
+}
+
+.nav-bar {
+	height: 5vh;
+	width: auto;
+
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 10px;
+
+	padding: 3rem 2rem;
+  	display: flex;
+  	gap: 1rem;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.nav-bar-center-section {
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	gap: 6rem;
+
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+
+	a {
+		scroll-behavior:inherit;
+	}
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////// title and about section
 
 .header-aligner {
 	display: flex;
-	align-items: center;
-	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: -350px;
 }
 
-.title-container {
-	height: 50px;
-}
+/////////////////////////////////////////////////////////////////////////////////////////// name section
 
-.title-styles {
-	font-family: 'Raleway', sans-serif;
-	margin-top: 100px;
-	font-size: 500%;
-	color: white;
-}
-
-.title-styles p {
-	font-size: 16px;
-}
-
-.social-link {
+.name-title {
 	display: flex;
-	width: 100%;
+	flex-direction: column;
+	align-items: start;
+	align-content: start;
+	justify-content: start;
+	margin-left: 120px;
+}
+
+.name-title {
+
+	h1 {
+		text-decoration: none;
+		padding: 0rem clamp(1rem, 2vw, 3rem);
+
+		background: linear-gradient(270deg, #f0c208, #08c5f0, #c608f0);
+    	background-size: 600% 600%;
+
+    	-webkit-animation: AnimationName 60s ease infinite;
+    	-moz-animation: AnimationName 60s ease infinite;
+    	animation: AnimationName 60s ease infinite;
+
+		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+	}
+
+	@-webkit-keyframes AnimationName {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@-moz-keyframes AnimationName {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@keyframes AnimationName {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+}
+
+.name-section h1 {
+	font-size: 150px;
+}
+
+.sub-name-section h1 {
+	font-size: 90px;
+}
+/////////////////////////////////////////////////////////////////////////////////////////// about me section
+
+.about-me-section {
+	display: flex;
 	align-items: center;
+	align-content: center;
 	justify-content: center;
-	gap: 150px;
-	padding-top: 100px;
-}
-.github-button {
-	background: url(icons/github.png) no-repeat;
-	padding: 32px 32px;
-}
-.github-button:hover {
-	-webkit-filter: invert(100%);
-	filter: invert(100%);
-}
-.discord-button {
-	background: url(icons/discord.png) no-repeat;
-	padding: 32px 32px;
-	border: 0px;
-	cursor: pointer;
-}
-.discord-button:hover {
-	-webkit-filter: invert(100%);
-	filter: invert(100%);
-	cursor: pointer;
-}
-// .youtube-button {
-// 	background: url(icons/youtube.png) no-repeat;
-// 	padding: 32px 32px;
-// }
-// .youtube-button:hover {
-// 	-webkit-filter: invert(100%);
-// 	filter: invert(100%);
-// }
-
-header {
-	position: relative;
-	height: 520px;
-	min-height: 450px;
-	width: 100%;
-	text-align: center;
-	overflow: hidden;
-	padding-top: 150px;
-	padding-bottom: 0;
-    background: linear-gradient(270deg, #136692, #5238ad, #be9428);
-    background-size: 400% 400%;
-
-    -webkit-animation: header-background-color 50s ease infinite;
-    -moz-animation: header-background-color 50s ease infinite;
-    -o-animation: header-background-color 50s ease infinite;
-    animation: header-background-color 50s ease infinite;
-}
-
-@-webkit-keyframes header-background-color {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes header-background-color {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-o-keyframes header-background-color {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes header-background-color {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
-header h1 {
-	font-size: 100px;
-	text-align: center;
-	font-weight: 200 !important;
-	color: #ffffff;
-	font-family: 'Entanglement','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	margin: 0 auto 18px auto;
-	width: 100%;
-}
-
-header h1:hover {
-	color: black;
-}
-
-@media screen and (max-width: 1040px) {
-	.social-link {
-		gap: 10vw;
-	}
-
-}
-@media screen and (max-width: 600px) {
-	header h1 {
-		font-size: 15vw;
-	}
-
-	.title-styles {
-		font-size: 8vw;
-	}
-}
-/////////////////////////////////////////////////////////////////////////////////////////// ABOUT ME SECTION
-
-#about {
-	background: #0077b6;
-	min-height: 600px;
-}
-
-.about-title {
-	padding-top: 5%;
-	padding-bottom: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: white;
-	text-align: center;
+	padding-left: 10%;
 }
 
 .text-box {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: center;
-	flex-direction: column;
 	width: 900px;
-	margin-left: auto;
-	margin-right: 60px;
 }
 
-.text-box-item {
-	border-radius: 12px;
+.text-box-title h1 {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 60px;
+	color: rgb(0 0 0/1);
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
-.text-box-header {
-	background-color: #000000;
-	height: 80px;
-	border-radius: 15px 15px 0px 0px;
+.text-box-content p {
+	font-size: 20px;
+	text-align: justify;
 }
 
-.text-box-header h2 {
-	color: green;
-	padding-left: 25px;
-	margin-bottom: 0px;
-	font-size: 25px;
-	margin-top: 0px;
-	font-family: Terminus;
-    padding-top: 20px;
-
-	.styles_typicalWrapper__1_Uvh {
-		margin-top: 0px;
-		margin-bottom: 0px;
+@media screen and (max-width: 1800px) {
+	.header-aligner {
+		justify-content: center;
+	}
+	.name-title {
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		margin-left: 0px;
 	}
 }
 
-.text-box-body {
-	background-color: black;
-	border-radius: 0px 0px 15px 15px;
+@media screen and (max-width: 1660px) {
+	.about-me-section {
+		padding-left: 0%;
+	}
 }
 
-.text-box-body p {
-	font-family: Terminus;
-	color: white;
-	padding-left: 25px;
-    padding-right: 10px;
-	margin-bottom: 0px;
-    margin-top: 0px;
-	font-size: 20px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-@media screen and (max-width: 990px) {
-	.text-box {
-		width: auto;
-		margin-left: 10px;
-    	margin-right: 10px;
+@media screen and (max-width: 490px) {
+	.name-section h1 {
+		font-size: 10vh;
 	}
 	
+	.sub-name-section h1 {
+		font-size: 7vh;
+	}
+
+	.about-me-section {
+		padding-left: 0px;
+	}
+
+	.text-box-title  {
+		h1 {
+			font-size: 5vh;
+		}
+	}
 }
-@media screen and (max-width: 400px) {
-	.text-box-body p {
-    	font-size: 5vw;
-	}
-	.text-box-header h2 {
-		font-size: 5.5vw;
-	}
-	.text-box-header {
-		width: fit-content;
-	}
-	.text-box-body {
-		width: fit-content;
+
+/////////////////////////////////////////////////////////////////////////////////////////// social link section
+
+.social-link {
+	margin-top: 40px;
+	display: flex;
+	width: 100%;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 50px;
+}
+
+.github-link-box {
+	height: 187px;
+}
+
+.github-stats-box {
+	height: 190px;
+}
+
+.github-profile-card {
+	background-color: #191724;
+	height: 188px; // smaller cuz border
+	width: 298px; // smaller cuz border
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 1px solid #ffffff;
+}
+
+@media screen and (max-width: 715px) {
+	.social-link {
+		flex-direction: column;
+		align-items: center;
 	}
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////// PROJECTS SECTION
- 
-#projects {
-	background: #453C67;
-	min-height: 500px;
-}
 
-.projects-title {
-	padding-top: 5%;
-	padding-bottom: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+.projects-title h1 {
 	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: #fff;
-	text-align: center;
+	letter-spacing: 4px;
+	font-size: 60px;
+	color: rgb(0 0 0/1);
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
 .projects-card-box {
@@ -282,8 +267,12 @@ header h1:hover {
 	height: 400px;
 	max-width: 400px;
 	min-width: 400px;
-	background-color: white;
-	border-radius: 12px;
+
+	background-color: #191724;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 1px solid #ffffff;
 }
 
 @media screen and (max-width: 410px) {
@@ -292,7 +281,6 @@ header h1:hover {
 		max-width: 400px;
 	}
 }
-
 
 .projects-card-item h3 {
 	font-size: 20px;
@@ -303,6 +291,8 @@ header h1:hover {
 .projects-card-item p {
 	font-size: 15px;
 	margin: 8px;
+
+	text-align: justify;
 }
 
 .projects-card-github-button {
@@ -312,31 +302,15 @@ header h1:hover {
 	margin-bottom: 25px;
 }
 
-.projects-card-wip {
-	background: url(icons/work-in-progress.png) no-repeat;
-	padding: 32px 32px;
-	margin-top: auto;
-	margin-bottom: 25px;
-}
-
 /////////////////////////////////////////////////////////////////////////////////////////// SKILLS SECTION
 
-#skills {
-	background: #1F1F1F;
-	min-height: 200px;
-	width: 100%;
-	overflow: hidden;
-	padding-bottom: 10%;
-}
 
-.skills-title {
-	padding-top: 5%;
-	padding-bottom: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+.skills-title h1 {
 	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: #fff;
-	text-align: center;
+	letter-spacing: 4px;
+	font-size: 60px;
+	color: rgb(0 0 0/1);
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
 .skills-icon-box {
@@ -358,11 +332,17 @@ header h1:hover {
 	flex-direction: column;
   	margin: 10px;
 	padding: 10px 10px;
-	border-radius: 12px;
 	height: 140px;
 	width: 120px;
-	background-color: white;
+
+
+	background-color: #191724;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 1px solid #ffffff;
 }
+
 .skills-icon-item:hover {
 	background-color: black;
 	p {
@@ -373,7 +353,6 @@ header h1:hover {
 }
 
 .skills-icon-item p {
-	color: black;
 	font-size: 15px;
 	padding-top: 22px;
 }
@@ -381,6 +360,7 @@ header h1:hover {
 .tooltip-title {
 	color: white;
 	text-align: center;
+	letter-spacing: 2px;
 }
 
 .skills-html-icon {
@@ -427,11 +407,8 @@ header h1:hover {
 /////////////////////////////////////////////////////////////////////////////////////////// FOOTER SECTION
 
 footer {
-	background: black;
-	min-height: 100px;
-	width: 100%;
-	overflow: hidden;
-	font-size: 14px;
+	height: 100px;
+	margin-top: 60px;
 	position: relative;
 	text-align: center;
 }
@@ -439,4 +416,5 @@ footer {
 .footer-copyright {
 	color: white;
 	padding-top: 30px;
+	font-size: 14px;
 }

@@ -1,14 +1,12 @@
 {
   "basic_info": {
-      "name": "Salut, je suis timeo",
-      "titles": [ "motivé", "passionné", "github.com/tralalax", "autodidacte", "Timéo D-R" ],
+      "name": "TIMEO",
+      "sub_name": "TRALALA",
       "github_link": "https://github.com/tralalax",
-      "discord_link": "tralala#7229",
-      "youtube_link": "https://youtube.com",
       "about_title": "A PROPOS DE MOI",
-      "skills_title": "j'ai des compétences en :",
-      "project_title": "Mes Projets",
-      "text_box_about_me_title": "timeo-website@tralalax.github.io:~$",
+      "skills_title": "j'ai des compétences en",
+      "skills_navbar": "SKILLS",
+      "project_title": "MES PROJETS",
       "text_box_content": "Salut, voici mon site portfolio pour présenter ce que je sais faire et quelques projets que j'ai réalisé. Je suis actuellement en BAC Pro en Haute-Savoie et j'aimerais pouvoir faire un BUT réseau & télécommunication l'année prochaine. Je suis passionné par l'informatique depuis que j'ai commencé le lycée et j'espère pouvoir travailler dans ce domaine plus tard.",
       "copyright": "Made By Tralala / Timéo"
   },
