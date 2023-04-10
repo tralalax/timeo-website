@@ -8,9 +8,11 @@ import "animate.css/animate.min.css";
 var name = (data.basic_info.name);
 var sub_name = (data.basic_info.sub_name);
 var github_link = (data.basic_info.github_link);
+var github_link_name = (data.basic_info.github_link_name);
 var about_title = (data.basic_info.about_title);
 var text_box_content = (data.basic_info.text_box_content);
 var project_title = (data.basic_info.project_title);
+var project_navbar = (data.basic_info.project_navbar);
 var skills_navbar = (data.basic_info.skills_navbar);
 var github_button = (data.projects.github_button);
 var skills_title = (data.basic_info.skills_title);
@@ -45,7 +47,7 @@ class Header extends Component {
   componentDidMount() {
     const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let interval = null;
-    const h1List = document.querySelectorAll("#home a");
+    const h1List = document.querySelectorAll("#navbar a");
     
     h1List.forEach((h1) => {
       h1.onmouseover = function(event) {  
@@ -78,12 +80,12 @@ class Header extends Component {
     return (
       <header id="home" style={{height: window.innerHeight}}>
 
-        <div className="nav-bar">
+        <div id="navbar" className="nav-bar">
           <div className="nav-bar-center-section">
             <a data-value={skills_navbar} href="#skills" >{skills_navbar}</a>
           </div>
           <div className="nav-bar-center-section">
-            <a data-value={project_title} href="#projects" >{project_title}</a>
+            <a data-value={project_navbar} href="#projects" >{project_navbar}</a>
           </div>
         </div>
 
@@ -112,7 +114,10 @@ class Header extends Component {
         <div className="social-link">
           <div className="github-link-box">
             <div className="github-profile-card">
-              {/* TODO */}
+              <a href={github_link}>
+                <h4>{github_link_name}</h4>
+                <div className="github-profile-card-icon"></div>
+              </a>
             </div>
           </div>
           <div className="github-stats-box">
