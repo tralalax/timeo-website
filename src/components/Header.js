@@ -77,78 +77,159 @@ class Header extends Component {
 
 
   render() {
+
+    const particlesInit = async (main) => {
+      console.log(main);
+      await loadFull(main);
+    };
+  
+    const particlesLoaded = (container) => {
+      console.log(container);
+    };
+
     return (
-      <header id="home" style={{height: window.innerHeight}}>
+      <><Particles
+        id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
+        options={{
+          fpsLimit: 120,
+          interactivity: {
+            events: {
+              onClick: {
+                enable: false,
+                mode: "push"
+              },
+              onHover: {
+                enable: false,
+                mode: "repulse"
+              },
+              resize: true
+            },
+            modes: {
+              push: {
+                quantity: 4
+              },
+              repulse: {
+                distance: 200,
+                duration: 0.4
+              }
+            }
+          },
+          particles: {
+            color: {
+              value: "#ffffff",
+              opacity: 0.1,
+            },
+            links: {
+              color: "#ffffff",
+              distance: 150,
+              enable: false,
+              opacity: 0.1,
+              width: 1
+            },
+            collisions: {
+              enable: false
+            },
+            move: {
+              direction: "none",
+              enable: true,
+              outModes: {
+                default: "bounce"
+              },
+              random: false,
+              speed: 0.2,
+              straight: false
+            },
+            number: {
+              density: {
+                enable: true,
+                area: 800
+              },
+              value: 80
+            },
+            opacity: {
+              value: 0.5
+            },
+            shape: {
+              type: "circle"
+            },
+            size: {
+              value: { min: 1, max: 5 }
+            }
+          },
+          detectRetina: true
+        }} /><header id="home" style={{ height: window.innerHeight }}>
 
-        <div id="navbar" className="nav-bar">
-          <div className="nav-bar-center-section">
-            <a data-value={skills_navbar} href="#skills" >{skills_navbar}</a>
-          </div>
-          <div className="nav-bar-center-section">
-            <a data-value={project_navbar} href="#projects" >{project_navbar}</a>
-          </div>
-        </div>
-
-        <div className="header-aligner">
-          <div className="name-title">
-            <div className="name-section">
-              <h1>{name}</h1>
+          <div id="navbar" className="nav-bar">
+            <div className="nav-bar-center-section">
+              <a data-value={skills_navbar} href="#skills">{skills_navbar}</a>
             </div>
-            <div className="sub-name-section">
-              <h1>{sub_name}</h1>
+            <div className="nav-bar-center-section">
+              <a data-value={project_navbar} href="#projects">{project_navbar}</a>
             </div>
           </div>
 
-          <div className="about-me-section">
-            <div className="text-box">
-              <div className="text-box-title">
-                <h1>{about_title}</h1>
+          <div className="header-aligner">
+            <div className="name-title">
+              <div className="name-section">
+                <h1>{name}</h1>
               </div>
-              <div className="text-box-content">
-                <p>{text_box_content}</p>
+              <div className="sub-name-section">
+                <h1>{sub_name}</h1>
+              </div>
+            </div>
+
+            <div className="about-me-section">
+              <div className="text-box">
+                <div className="text-box-title">
+                  <h1>{about_title}</h1>
+                </div>
+                <div className="text-box-content">
+                  <p>{text_box_content}</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="social-link">
-          <div className="github-link-box">
-            <div className="github-profile-card">
-              <a href={github_link}>
-                <h4>{github_link_name}</h4>
-                <div className="github-profile-card-icon"></div>
-              </a>
+          <div className="social-link">
+            <div className="github-link-box">
+              <div className="github-profile-card">
+                <a href={github_link}>
+                  <h4>{github_link_name}</h4>
+                  <div className="github-profile-card-icon"></div>
+                </a>
+              </div>
+            </div>
+            <div className="github-stats-box">
+              <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tralalax&langs_count=8&layout=compact&theme=rose_pine"></img>
             </div>
           </div>
-          <div className="github-stats-box">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tralalax&langs_count=8&layout=compact&theme=rose_pine"></img>
-          </div>
-        </div>
 
-        <section id="projects">
+          <section id="projects">
             <div className="projects-title">
               <h1>{project_title}</h1>
             </div>
             <div className="projects-card-box">
               {projects}
             </div>
-        </section>
+          </section>
 
-        <section id="skills">
+          <section id="skills">
             <div className="skills-title">
               <h1>{skills_title}</h1>
             </div>
 
-          <div className="skills-icon-box">
-            {skills}
-          </div>
-        </section>
+            <div className="skills-icon-box">
+              {skills}
+            </div>
+          </section>
 
-        <footer>
-          <div className="footer-copyright">{copyright}</div>
-        </footer>
+          <footer>
+            <div className="footer-copyright">{copyright}</div>
+          </footer>
 
-      </header>
+        </header></>
     );
   }
 }
