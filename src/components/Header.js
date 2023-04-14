@@ -4,6 +4,9 @@ import data from "./data.json";
 import dataProjects from "./dataProjects.json";
 import dataSkills from "./dataSkills.json";
 import "animate.css/animate.min.css";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+
 
 var name = (data.basic_info.name);
 var sub_name = (data.basic_info.sub_name);
@@ -79,19 +82,13 @@ class Header extends Component {
   render() {
 
     const particlesInit = async (main) => {
-      console.log(main);
       await loadFull(main);
-    };
-  
-    const particlesLoaded = (container) => {
-      console.log(container);
     };
 
     return (
       <><Particles
         id="tsparticles"
         init={particlesInit}
-        loaded={particlesLoaded}
         options={{
           fpsLimit: 120,
           interactivity: {
@@ -159,7 +156,9 @@ class Header extends Component {
             }
           },
           detectRetina: true
-        }} /><header id="home" style={{ height: window.innerHeight }}>
+        }} />
+        
+        <header id="home" style={{ height: window.innerHeight }}>
 
           <div id="navbar" className="nav-bar">
             <div className="nav-bar-center-section">
