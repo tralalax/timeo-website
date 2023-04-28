@@ -2,5 +2,5 @@
 Mon site portfolio, fait en ReactJS
 
 ## branches :
-- `main` -> Code faire par moi
+- `main` -> Code fait par moi
 - `gh-pages` -> Code optimisé généré pour héberger le site 
