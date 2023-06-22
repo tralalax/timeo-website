@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import Tooltip from '@mui/material/Tooltip';
 import data from "./data.json";
 import dataProjects from "./dataProjects.json";
@@ -6,7 +5,7 @@ import dataSkills from "./dataSkills.json";
 import "animate.css/animate.min.css";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-
+import React, { Component } from 'react';
 
 var name = (data.basic_info.name);
 var sub_name = (data.basic_info.sub_name);
@@ -46,37 +45,62 @@ var skills = dataSkills.skills.cards.map(function (skill, i) {
 
 
 class Header extends Component {
+  timeouts = new Map();
 
   componentDidMount() {
-    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    let interval = null;
-    const h1List = document.querySelectorAll("#navbar a");
-    
-    h1List.forEach((h1) => {
-      h1.onmouseover = function(event) {  
-        let iteration = 0;
-        clearInterval(interval);
-        
-        interval = setInterval(function() {
-          event.target.textContent = event.target.textContent
-            .split("")
-            .map(function(letter, index) {
-              if (index < iteration) {
-                return event.target.dataset.value[index];
-              }
-              return letters[Math.floor(Math.random() * 26)]
-            })
-            .join("");
-          
-          if (iteration >= event.target.dataset.value.length) { 
-            clearInterval(interval);
-          }
-          
-          iteration += 1 / 3;
-        }, 30);
-      }
-    })
+    const elements = document.querySelectorAll('#navbar a');
+
+    elements.forEach((element, index) => {
+      const initialText = element.innerText;
+      
+      element.addEventListener('mouseover', () => this.startAnimation(element, initialText));
+      element.addEventListener('mouseout', () => this.stopAnimation(element, initialText));
+      
+    });
   }
+
+  animate = async (element, targetValue) => {
+    const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let iteration = 0;
+    const initialText = element.innerText;
+
+    while (iteration < targetValue.length) {
+      const randomText = Array.from({ length: targetValue.length }, (_, i) => {
+        if (i < iteration) {
+          return targetValue[i];
+        }
+        return letters[Math.floor(Math.random() * 26)];
+      }).join('');
+
+      element.innerText = randomText + initialText.slice(targetValue.length);
+
+      iteration += 1 / 3;
+      await new Promise((resolve) => setTimeout(resolve, 30));
+    }
+  };
+
+  startAnimation = (element, initialText) => {
+    if (this.timeouts.has(element)) return; // Check if animation is already running for the element
+
+    const targetValue = element.getAttribute('data-value') || ''; // Use empty string as fallback
+
+    const timeout = setTimeout(() => {
+      this.animate(element, targetValue).then(() => {
+        this.timeouts.delete(element);
+      });
+    }, 100);
+
+    this.timeouts.set(element, timeout);
+  };
+
+  stopAnimation = (element, initialText) => {
+    const timeout = this.timeouts.get(element);
+    if (timeout) {
+      clearTimeout(timeout);
+      this.timeouts.delete(element);
+      element.innerText = initialText;
+    }
+  };
 
 
   render() {

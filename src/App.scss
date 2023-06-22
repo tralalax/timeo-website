@@ -57,7 +57,10 @@ header {
 }
 
 .nav-bar-center-section {
+	width: 250px;
 	display: flex;
+	justify-content: center;
+	overflow: hidden;
 	gap: 6rem;
 
 	border-left: 1px solid #ffffff;
