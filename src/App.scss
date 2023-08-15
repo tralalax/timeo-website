@@ -441,6 +441,16 @@ header {
 	padding: 32px 32px;
 	background: url(icons/skills-kotlin.png) no-repeat;
 }
+.skills-rust-icon {
+	padding: 32px 32px;
+	background: url(icons/skills-rust.svg) no-repeat;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+.skills-svelte-icon {
+	padding: 32px 32px;
+	background: url(icons/skills-svelte.svg) no-repeat;
+}
 .skills-discordpy-icon {
 	padding: 32px 32px;
 	background: url(icons/skills-discord.png) no-repeat;

@@ -60,6 +60,18 @@
                 "name": "NETWORKING",
                 "class": "skills-networking-icon",
                 "delay": 540
+            },
+            {
+                "tooltip": "Language Rust",
+                "name": "RUST",
+                "class": "skills-rust-icon",
+                "delay": 600
+            },
+            {
+                "tooltip": "Svelte framework",
+                "name": "SVELTE",
+                "class": "skills-svelte-icon",
+                "delay": 660
             }
         ]
     }
