@@ -1,7 +1,7 @@
 {
   "name": "timeo-website",
   "version": "0.1.1",
-  "homepage": "https://tralalax.github.io/home",
+  "homepage": "https://tralalax.github.io/home/#/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
