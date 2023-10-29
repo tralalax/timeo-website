@@ -54,6 +54,40 @@ header {
   	gap: 1rem;
   	align-items: center;
   	justify-content: center;
+
+	a {
+		font-size: 50px;
+		color: white;
+		text-decoration: none;
+		padding: 0rem clamp(1rem, 2vw, 3rem);
+	}
+	a:hover {
+		color: black;
+		background-color: #ffffff;
+	}
+
+}
+
+@media screen and (max-width: 1000px) {
+	.nav-bar {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.nav-bar a{
+		font-size: 3vh;
+	}
+}
+@media screen and (max-width: 500px) {
+	.nav-bar {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 5px;
+	}
+	.nav-bar a {
+		font-size: 2vh;
+	}
 }
 
 .nav-bar-center-section {
@@ -175,7 +209,7 @@ header {
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 930px) {
 	.name-section h1 {
 		font-size: 10vh;
 	}
@@ -223,7 +257,7 @@ header {
 
 .github-profile-card {
 	background-color: #191724;
-	height: 188px; // smaller cuz border
+	height: 160px; // smaller cuz border
 	width: 298px; // smaller cuz border
 	border-radius: 5px 5px 5px 5px;
 	-moz-border-radius: 5px 5px 5px 5px;
@@ -234,7 +268,7 @@ header {
 		display: inline-block;
 		padding:0%;
 		width: 298px;
-		height: 188px;
+		height: 160px;
 	}
 	a:hover {
 		background-color: black;
@@ -271,7 +305,7 @@ header {
 }
 
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 1020px) {
 	.social-link {
 		flex-direction: column;
 		align-items: center;

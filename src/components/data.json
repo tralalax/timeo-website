@@ -3,13 +3,17 @@
       "name": "TIMEO",
       "sub_name": "tralala74",
       "github_link": "https://github.com/tralalax",
+      "linkedin_link": "https://www.linkedin.com/in/timeo-domin%C3%A9-ravanel-388478295/",
       "about_title": "A PROPOS DE MOI",
       "skills_title": "j'ai des compétences en",
       "skills_navbar": "SKILLS",
+      "home_navbar": "HOME",
       "project_navbar": "PROJETS",
+      "blog_navbar": "BLOG",
       "project_title": "MES PROJETS",
       "github_link_name": "Mon Profile Github",
-      "text_box_content": "Salut, voici mon site portfolio pour présenter ce que je sais faire et quelques projets que j'ai réalisés. Je commence mon BUT Réseau & Télécom l'année prochaine. Je me passionne pour la physique, les math et l'informatique. Je passe beaucoup de temps à coder mais il m'arrive de jouer à Osu! et Genshin Impact ou de dessiner (très mal). J'espère aider les gens grace à mes connaissances ou mes projets.",
+      "linkedin_link_name": "Mon Profile Linkedin",
+      "text_box_content": "Salut, voici mon site portfolio pour présenter ce que je sais faire et quelques projets que j'ai réalisés. Je suis actuellement en BUT Réseaux & Télécoms à l'IUT1 de Grenoble. Je me passionne pour la physique, les math et l'informatique. Je passe beaucoup de temps à coder et à apprendre de nouvelles choses. J'espère aider les gens grâce à mes connaissances ou mes projets.",
       "copyright": "Made By Tralala / Timéo"
   },
   "projects": {

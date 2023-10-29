@@ -12,6 +12,7 @@
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^6.17.0",
     "react-scripts": "^5.0.1",
     "react-tsparticles": "^2.5.3",
     "react-typical": "^0.1.3",
