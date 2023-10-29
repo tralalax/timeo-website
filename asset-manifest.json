@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/timeo-website/static/css/main.777a2467.css",
-    "main.js": "/timeo-website/static/js/main.289d8700.js",
+    "main.css": "/timeo-website/static/css/main.a88b04ac.css",
+    "main.js": "/timeo-website/static/js/main.6013dc2c.js",
     "static/media/skills-rust.svg": "/timeo-website/static/media/skills-rust.9351760f6f7ab135417d.svg",
     "static/media/skills-svelte.svg": "/timeo-website/static/media/skills-svelte.567ce3148e00a040ea95.svg",
     "static/media/github.svg": "/timeo-website/static/media/github.2fa7be8b2ebfee3497bb.svg",
     "static/media/external-link.svg": "/timeo-website/static/media/external-link.fdd57f481a1d49cfda37.svg",
     "index.html": "/timeo-website/index.html",
-    "main.777a2467.css.map": "/timeo-website/static/css/main.777a2467.css.map",
-    "main.289d8700.js.map": "/timeo-website/static/js/main.289d8700.js.map"
+    "main.a88b04ac.css.map": "/timeo-website/static/css/main.a88b04ac.css.map",
+    "main.6013dc2c.js.map": "/timeo-website/static/js/main.6013dc2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.777a2467.css",
-    "static/js/main.289d8700.js"
+    "static/css/main.a88b04ac.css",
+    "static/js/main.6013dc2c.js"
   ]
 }
