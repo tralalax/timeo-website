@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.054465a7.css",
-    "main.js": "/home/static/js/main.9a30b154.js",
-    "static/media/skills-rust.svg": "/home/static/media/skills-rust.9351760f6f7ab135417d.svg",
-    "static/media/skills-svelte.svg": "/home/static/media/skills-svelte.567ce3148e00a040ea95.svg",
-    "static/media/github.svg": "/home/static/media/github.2fa7be8b2ebfee3497bb.svg",
-    "static/media/external-link.svg": "/home/static/media/external-link.fdd57f481a1d49cfda37.svg",
-    "index.html": "/home/index.html",
-    "main.054465a7.css.map": "/home/static/css/main.054465a7.css.map",
-    "main.9a30b154.js.map": "/home/static/js/main.9a30b154.js.map"
+    "main.css": "/timeo-website/home/static/css/main.f0847b8a.css",
+    "main.js": "/timeo-website/home/static/js/main.7b5e64c7.js",
+    "static/media/skills-rust.svg": "/timeo-website/home/static/media/skills-rust.9351760f6f7ab135417d.svg",
+    "static/media/skills-svelte.svg": "/timeo-website/home/static/media/skills-svelte.567ce3148e00a040ea95.svg",
+    "static/media/github.svg": "/timeo-website/home/static/media/github.2fa7be8b2ebfee3497bb.svg",
+    "static/media/external-link.svg": "/timeo-website/home/static/media/external-link.fdd57f481a1d49cfda37.svg",
+    "index.html": "/timeo-website/home/index.html",
+    "main.f0847b8a.css.map": "/timeo-website/home/static/css/main.f0847b8a.css.map",
+    "main.7b5e64c7.js.map": "/timeo-website/home/static/js/main.7b5e64c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.054465a7.css",
-    "static/js/main.9a30b154.js"
+    "static/css/main.f0847b8a.css",
+    "static/js/main.7b5e64c7.js"
   ]
 }
