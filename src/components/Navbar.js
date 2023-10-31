@@ -79,9 +79,9 @@ class Navbar extends Component {
             <div className="nav-bar-center-section">
                 <a data-value={project_navbar} href="/home#projects">{project_navbar}</a>
             </div>
-            <div className="nav-bar-center-section">
+            {/* <div className="nav-bar-center-section">
                 <a data-value={blog_navbar} href="/blog">{blog_navbar}</a>
-            </div>
+            </div> */}
         </div>
 
         );

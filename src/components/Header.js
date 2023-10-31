@@ -125,7 +125,7 @@ class Header extends Component {
                     detectRetina: true
                 }} />
 
-                <header id="home" style={{ height: window.innerHeight }}>
+                <header id="home">
 
                     <div className="header-aligner">
                         <div className="name-title">

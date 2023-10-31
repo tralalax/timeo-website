@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { HashRouter, Route, Link } from "react-router-dom";
+// import { HashRouter, Route, Link } from "react-router-dom";
 
 ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.register();
