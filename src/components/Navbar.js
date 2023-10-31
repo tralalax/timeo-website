@@ -71,13 +71,13 @@ class Navbar extends Component {
 
         <div id="navbar" className="nav-bar">
             <div className="nav-bar-center-section">
-                <a data-value={home_navbar} href="/home">{home_navbar}</a>
+                <a data-value={home_navbar} href="/timeo-website">{home_navbar}</a>
             </div>
             <div className="nav-bar-center-section">
-                <a data-value={skills_navbar} href="/home#skills">{skills_navbar}</a>
+                <a data-value={skills_navbar} href="#skills">{skills_navbar}</a>
             </div>
             <div className="nav-bar-center-section">
-                <a data-value={project_navbar} href="/home#projects">{project_navbar}</a>
+                <a data-value={project_navbar} href="#projects">{project_navbar}</a>
             </div>
             {/* <div className="nav-bar-center-section">
                 <a data-value={blog_navbar} href="/blog">{blog_navbar}</a>
